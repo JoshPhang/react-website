@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import Home from "./Home";
-import Logo from "./Logo";
+import Versle from "./Versle";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <div className="content">
         <Home />
       </div>
-      {/* <Logo /> */}
+      <Versle />
     </div>
   );
 }
