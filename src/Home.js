@@ -13,9 +13,20 @@ const Home = () => {
     },
   ]);
 
+  const handleDelete = (id) => {
+    const newBlogs = announcements.filter(
+      (announcement) => announcement.id !== id
+    );
+    setAnnouncements(newBlogs);
+  };
+
   return (
     <div className="home">
-      <BlogList announcements={announcements} title="All Announcements"/>
+      <BlogList
+        announcements={announcements}
+        title="All Announcements"
+        handleDelete={handleDelete}
+      />
     </div>
   );
 };
