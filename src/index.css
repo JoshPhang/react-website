@@ -7,13 +7,17 @@
 }
 
 .navbar {
+  position: sticky;
+  top: 0;
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 800px;
+  max-width: 90%;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
   font-weight: bold;
+  background: white;
+  z-index: 9999;
 }
 
 .navbar .insta {
@@ -70,4 +74,81 @@
 
 .versle p {
   font-weight: bold;
+}
+
+.leaders {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.aboutPage p {
+  font-weight: bold;
+}
+
+.leaderCard {
+  position: relative;
+  margin-top: 20px;
+  border-radius: 5%;
+  z-index: 1;
+}
+
+.leaderCard img {
+  width: 100%;
+  border-radius: 5%;
+  opacity: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.overlay h1 {
+  margin-top: 20px;
+  color: #f1f1f1;
+  opacity: 1;
+  text-align: center;
+}
+.overlay p {
+  position: absolute;
+  top: 40%;
+  color: #f1f1f1;
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 4px;
+  margin-bottom: 6px;
+  background: black;
+  border-radius: 5%;
+  color: white;
+  z-index: 2;
+  opacity: 0;
+  transition: 0.5s ease;
+  text-align: center;
+  font-size: 12px;
+}
+
+.overlay:hover {
+  opacity: 0.7;
+}
+
+.col {
+  flex: 25%;
+  max-width: 300px;
+  padding: 0 20px;
+}
+
+.aboutPage h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .col {
+    flex: 50%;
+    max-width: 50%;
+  }
 }

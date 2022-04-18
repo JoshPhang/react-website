@@ -1,5 +1,6 @@
 import { useState } from "react";
 import BlogList from "./BlogList";
+import About from "./About";
 
 const Home = () => {
   const [announcements, setAnnouncements] = useState([
@@ -21,12 +22,31 @@ const Home = () => {
   };
 
   return (
-    <div className="home">
+    <div id="home-page" className="home">
       <BlogList
         announcements={announcements}
         title="All Announcements"
         handleDelete={handleDelete}
       />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <About />
     </div>
   );
 };

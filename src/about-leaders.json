@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Christian",
+    "fullName": "Christian A. Anayas",
+    "q": "Philippians 4:19 “And my God will supply all your needs in accordance to His glorious riches in Christ Jesus”",
+    "img": "christian.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Josh",
+    "fullName": "Joshua M. Phang",
+    "q": "Joshua 1:9 “Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go”",
+    "img": "josh.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Jubelle",
+    "fullName": "Jubelle A. Paa",
+    "q": "2 Corinthians 12:9-10 “That is why, for Christ's sake, I delight in weaknesses, in insults, in hardships, in persecutions, in difficulties. For when I am weak, then I am strong.”",
+    "img": "jubelle.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Kezziah",
+    "fullName": "Kezziah C. Aguilar",
+    "q": "Psalms 37:23-24 “The Lord directs the steps of the Godly, He delights in every single detail of their lives. Though they stumble, they will never fall for the Lord holds them by the hand.”",
+    "img": "kezziah.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Mark",
+    "fullName": "Mark-Gil Castillo",
+    "q": "Proverbs 3:5-6 “Trust the Lord with all your heart and lean not on your own understanding; in all your ways acknowledge him, and he will make you paths straight.”",
+    "img": "mark.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Michaella",
+    "fullName": "Michaella M. Quebral",
+    "q": "Matthew 13:22-23 “The seed that fell among the thorns represent those who hear God's word, but all too quickly the message is crowded out by the worries of this life and the lure of wealth, so no fruit is produced. The seed that fell on good soil represents those who truly hear and understand God's word...”",
+    "img": "michaella.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Rica",
+    "fullName": "Rica L. Quebral",
+    "q": "Psalm 103:12 “As far as the east is from the west, so far he has removed as our transgressions”",
+    "img": "rica.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Pastor Gerald",
+    "fullName": "Gerald Seng Hok Phang",
+    "q": "verse “”",
+    "img": "pg.jpeg"
+  }
+]
