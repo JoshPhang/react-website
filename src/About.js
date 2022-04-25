@@ -1,9 +1,6 @@
 import aboutLeaders from "./about-leaders";
 
 const About = () => {
-  const leaderData = () => JSON.parse(JSON.stringify(aboutLeaders));
-  var id = 1;
-
   function getLeaderData(id) {
     let leader = aboutLeaders.find((el) => el.id === id);
     return (
@@ -22,16 +19,16 @@ const About = () => {
       <h1 id="about-page">Meet The Leaders!</h1>
       <div className="leaders">
         <div className="col">
-          {getLeaderData(1)}
-          {getLeaderData(2)}
-          {getLeaderData(3)}
-          {getLeaderData(4)}
+          {getLeaderData(1)} {/*Christian*/}
+          {getLeaderData(2)} {/*Josh*/}
+          {getLeaderData(3)} {/*Jubelle*/}
+          {getLeaderData(4)} {/*Kezziah*/}
         </div>
         <div className="col">
-          {getLeaderData(5)}
-          {getLeaderData(6)}
-          {getLeaderData(7)}
-          {getLeaderData(8)}
+          {getLeaderData(5)} {/*Mark*/}
+          {getLeaderData(6)} {/*Michaella*/}
+          {getLeaderData(7)} {/*Rica*/}
+          {getLeaderData(8)} {/*PG*/}
         </div>
       </div>
     </div>
