@@ -1,4 +1,5 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import ReactModalLogin from "react-modal-login";
 
 const Navbar = () => {
   const instaHandle = "@pic.youth";
@@ -25,6 +26,7 @@ const Navbar = () => {
         <AnchorLink offset="100" href="#about-page">
           Our Team
         </AnchorLink>
+        <AnchorLink offset="100">Login</AnchorLink>
       </div>
     </nav>
   );
